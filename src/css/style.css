@@ -1,0 +1,27 @@
+body {
+    font-family: 'Liberation Mono', monospace;
+}
+
+header {
+    background-color: rgb(233, 233, 233);
+    border-bottom: 2px solid black;
+}
+
+main {
+    background-color: rgb(233, 233, 233);
+}
+
+main > section {
+    border: 2px solid black;
+}
+
+footer {
+    background-color: rgb(233, 233, 233);
+    border-top: 2px solid black;
+}
+
+footer > a {
+    background-color: snow;
+    text-decoration: none;
+    color: black;
+}

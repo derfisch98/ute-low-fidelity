@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 1fr 40px;
+    gap: 0.4em;
+    margin: 0px;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > a {
+    padding: 2px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+#menu {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    padding: 1px;
+    background-color: snow;
+    border: 1px solid black;
+}
